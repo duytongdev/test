@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-sm text-slate-700;
+}
+
+b {
+  @apply font-semibold;
+}
+
+.router-link-active {
+  @apply pointer-events-none bg-primary-500 text-white;
+}
